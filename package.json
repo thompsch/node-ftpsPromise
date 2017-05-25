@@ -1,6 +1,6 @@
 {
-"name": "node-ftpsPromise",
-"id": "node-ftpsPromise",
+"name": "node-ftps-promise",
+"id": "node-ftps-promise",
 "version": "0.0.1",
 "description": "A promise wrapper around ftp + tls (ftps)",
 "keywords": [
@@ -14,13 +14,13 @@
 "async"
 ],
 "author": "Caleb Thompson <calebthompson@gmail.com>",
-"homepage": "http://github.com/thompsch/node-ftpsPromise",
+"homepage": "http://github.com/thompsch/node-ftps-promise",
 "repository": {
 "type": "git",
-"url": "https://github.com/thompsch/node-ftpsPromise.git"
+"url": "https://github.com/thompsch/node-ftps-promise.git"
 },
 "bugs": {
-"url": "http://github.com/thompsch/node-ftpsPromise/issues"
+"url": "http://github.com/thompsch/node-ftps-promise/issues"
 },
 "dependencies": {
 "debug": "^2.2.0",
