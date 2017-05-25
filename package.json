@@ -13,7 +13,7 @@
 "client",
 "async"
 ],
-"author": "Sergi Mansilla <sergi.mansilla@gmail.com> (http://sergimansilla.com)",
+"author": "Caleb Thompson <calebthompson@gmail.com>",
 "homepage": "http://github.com/thompsch/node-ftpsPromise",
 "repository": {
 "type": "git",
