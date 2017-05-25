@@ -1,0 +1,42 @@
+{
+"name": "node-ftpsPromise",
+"id": "node-ftpsPromise",
+"version": "0.0.1",
+"description": "A promise wrapper around ftp + tls (ftps)",
+"keywords": [
+"ftps",
+"promise",
+"tls",
+"protocol",
+"files",
+"server",
+"client",
+"async"
+],
+"author": "Sergi Mansilla <sergi.mansilla@gmail.com> (http://sergimansilla.com)",
+"homepage": "http://github.com/thompsch/node-ftpsPromise",
+"repository": {
+"type": "git",
+"url": "https://github.com/thompsch/node-ftpsPromise.git"
+},
+"bugs": {
+"url": "http://github.com/thompsch/node-ftpsPromise/issues"
+},
+"dependencies": {
+"debug": "^2.2.0",
+"ftp-response-parser": "^1.0.1",
+"once": "^1.3.3",
+"parse-listing": "^1.1.3",
+"stream-combiner": "^0.2.2",
+"unorm": "^1.4.1"
+},
+"main": "lib/jsftps.js",
+"engines": {
+"node": ">=0.10"
+},
+"scripts": {
+"test": "mocha -R spec -t 5000",
+"clean": "rm -rf reports"
+},
+"license": "MIT"
+}
